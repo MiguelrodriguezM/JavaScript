@@ -1,9 +1,34 @@
     // Crea una lista de números pares del 2 al 20 utilizando un bucle while.
+var numeros = [];
+var i=2;
+   
+    while (i<=20){
+if(i%2==0){
+    numeros.push(i);
 
+
+}
+i++;
+
+    }
+console.log("list de numeros:"+numeros);
     // Crea una lista de números impares del 1 al 19 utilizando un bucle for.
+
+    var numerosImp=[];
     
+    for(var i=1; i<=19;i=i+2){
+        numerosImp.push(i);
+
+    }
+    console.log("lista de numeros impares" + numerosImp);
     // Crea una lista de comida.
-    
+    var listacom=["lechuga", "lechuga", "tomate"];
+    listacom.unshift("hambuerguesa");
+
+    for(var i=0; i>0; i++){
+listacom.unshift("hambuerguesa");
+    }
+    console.log("lista:"+listacom);
     // Agrega un elemento al principio de la lista de comida que creaste en el ejercicio anterior.
     
     // Accede al segundo elemento de la lista de comida y cambia su valor por otro diferente.
